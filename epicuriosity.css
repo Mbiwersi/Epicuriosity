@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+header{
+    background-color: rgb(243, 143, 12);
+    border-bottom:1px black solid;
+    padding-top: 5px;
+}
+
+nav{
+    margin-left: 5px;
+}
+
+ul.nav{
+    list-style: none;
+    display:inline-block;
+}
+
+nav li.nav-item{
+    display:inline-block;
+    margin: 10px 15px;
+    font-size: 1.5;
+    font-weight: bold;
+}
+
+/* E logo */
+a.logo{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    padding:3px;
+    margin-bottom:10px;
+    background-color: black;
+    color:white;
+    font-family: 'Great Vibes', cursive;
+    font-size:1.5em;
+}
+
+a.logo:hover{
+    background-color: white;
+    color:black;
+}
+
+a.logo-2 p{
+    display: inline-block;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.5em;
+    font-weight:bold;
+}
+
+a:link{
+    text-decoration-line: none;
+    color:black;
+    font-size:large
+}
+
+ul a:visited{
+    text-decoration-line: none;
+    color:black;
+    font-size:large
+}
+
+a.logo-2:visited{
+    text-decoration-line: none;
+    color:black;
+    font-size:large
+}
+
+a li.nav-item:hover{
+    color:white;
+}
+
+img.food{
+    max-width: 100%;
+}
+
+div.slogan-container{
+    position: relative;
+}
+
+div.slogan{
+    position: absolute;
+    top:5%;
+    left: 5%;
+    font-weight: bold;
+    font-size:xx-large;
+}
+
+div.slogan p{
+    font-size: 4vw;
+}
+
+div.recipes-container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 200px;
+}
+
+div.recipe-container{
+    background-color: rgb(214, 214, 214);
+    border:2px gray solid;
+    width:35%;
+    max-width: 250px;
+    margin:25px;
+    padding: 1em;
+}
+
+
+div.img-container{
+    display:flex;
+    justify-content: center;
+    margin: 10px;
+    border:1px black solid;
+    border-radius: 50%;
+    box-shadow: 2px 2px 2px;
+}
+
+/*Makes the images brighteness*/
+div.img-container:hover{
+    filter: brightness(1.25);
+}
+
+img.recipe-img{
+    border-radius: 50%;
+    max-width:100%;
+    max-height: 100%;
+}
+
+p.description {
+    /* SPACE EVENLY */
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    height: 110px;
+    margin-top:10px;
+}
+
+div.img-description-container{
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+}
+
+div.description-container{
+    display: flex;
+    justify-content: space-evenly;
+    /* height: 50%; */
+    justify-content: space-evenly;
+    /* outline: 1px red solid; */
+}
+
+div.go-button{
+    background-color: rgb(243, 143, 12);
+    margin:10px;
+    outline: 1px black solid;
+}
+
+div.go-button:hover{
+    cursor: pointer;
+    background-color: rgb(170, 112, 4);
+}
+
+p.go-button-description{
+    text-align: center;
+}
+
+footer{
+    position:fixed;
+    bottom:1px;
+    width:100%;
+    border-top:5px black solid;
+    background-color: rgb(243, 143, 12);
+}
+
+div.mission-connection{
+    padding:10px;
+    display:flex;
+    width:100%;
+}
+
+div.mission-container{
+    width:45%;
+    margin-left:10px;
+}
+
+div.connect-container{
+    width:45%;
+    margin-left:50px;
+}
+
+footer div h1{
+    font-size: 20px;
+}
+
+div.connect-container h1{
+    margin-left:8px;
+}
+
+ul.social-media{
+    list-style: none;
+    padding-top:10px;
+}
+
+ul.social-media li{
+    display:inline-block;
+    margin: 0px 8px;
+}
+
+i:hover{
+    color:blue;
+}
+
+
+div.copyright{
+    background-color: black;
+    color:gray;
+    text-align: center;
+    width:100%;
+    padding: 5px;
+    /* outline:1px red solid; */
+}
