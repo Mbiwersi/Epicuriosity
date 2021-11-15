@@ -30,7 +30,7 @@ nav li.nav-item{
 }
 
 /* E logo */
-a.logo{
+a.logo p{
     display: inline-block;
     width: 30px;
     height: 30px;
@@ -39,12 +39,12 @@ a.logo{
     padding:3px;
     margin-bottom:10px;
     background-color: black;
-    color:white;
+    color: white;
     font-family: 'Great Vibes', cursive;
     font-size:1.5em;
 }
 
-a.logo:hover{
+a.logo p:hover{
     background-color: white;
     color:black;
 }
